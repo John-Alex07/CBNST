@@ -9,7 +9,7 @@ double value_eqn(double x)
 }
 double eqn(int a, int b, int c, int d, double x)
 {
-    printf("INPUT THE COEFFICIENTS FOR THE EQUATION :\ a.x^3 + b.x^2 + c.x + d\n");
+    printf("INPUT THE COEFFICIENTS FOR THE EQUATION :\n a.x^3 + b.x^2 + c.x + d\n");
     scanf("%d%d%d%d", &a,&b,&c,&d);
 
     double res = a*x*x*x + b*x*x+ c*x + d;
